@@ -79,14 +79,48 @@ salesforce-crm-analytics/
 │ └── salesforce_won_vs_lost.png
 └── README.md
 
-yaml
-Copiar código
+
 
 ---
 
-## 🚀 Próximos Passos
+---
 
-- Exportar dados do Salesforce para análise no **Power BI**
+## 📊 Dashboards – Sales Performance Overview
+
+Este projeto inclui um dashboard interativo construído no Salesforce, com foco em **monitoramento do pipeline comercial**, **resultado de vendas** e **análise de conversão**.
+
+### 🔹 Visão Geral de Receita
+![Sales Performance Overview](dashboards/salesforce_dashboard_overview.png)
+
+**Insight:**  
+Permite uma leitura rápida do faturamento total e do volume de oportunidades, funcionando como KPI executivo para gestores comerciais.
+
+---
+
+### 🔹 Pipeline por Estágio
+![Pipeline by Stage](dashboards/salesforce_pipeline_by_stage.png)
+
+**Insight:**  
+Mostra a distribuição das oportunidades ao longo do funil de vendas, ajudando a identificar gargalos, excesso de deals em estágios intermediários e previsibilidade de receita.
+
+---
+
+### 🔹 Won vs Lost Opportunities
+![Won vs Lost](dashboards/salesforce_won_vs_lost.png)
+
+**Insight:**  
+Evidencia a taxa de sucesso das oportunidades, comparando valores ganhos versus perdidos, apoiando decisões de estratégia comercial e melhoria de conversão.
+
+---
+
+## 🧠 Principais Aprendizados
+
+- Criação de relatórios e dashboards no Salesforce
+- Análise de pipeline e performance comercial
+- Uso de métricas como **Amount**, **Expected Revenue**, **Stage** e **Close Rate**
+- Pensamento analítico voltado para **Sales Ops / BI**
+
+
 - Criar métricas de **Win Rate** e **Tempo Médio de Fechamento**
 - Evoluir o projeto para um cenário de **Sales Forecast**
 
