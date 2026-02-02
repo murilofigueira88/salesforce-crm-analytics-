@@ -1,123 +1,94 @@
-# 📊 Salesforce CRM Analytics – Sales Performance Project
+# 📊 Salesforce CRM Analytics — Sales Performance Overview
 
-## 📌 Descrição do Projeto
-Este projeto simula um cenário real de uma empresa B2B que utiliza o Salesforce como CRM para gestão de leads, oportunidades, clientes e equipe comercial.  
-O objetivo é transformar dados operacionais de CRM em **informações estratégicas para tomada de decisão**, utilizando análise de dados, BI e visualização.
+Este projeto demonstra a aplicação prática de **Salesforce CRM** no contexto de **Análise de Dados / Business Intelligence**, com foco em **vendas**, **pipeline comercial** e **performance de oportunidades**.
 
-O projeto foi desenvolvido com foco em **análise de performance de vendas (Sales Analytics)**, pipeline comercial e indicadores de receita.
+O objetivo é simular um cenário real de **Sales Ops / BI**, criando relatórios, dashboards e KPIs que apoiam a tomada de decisão de gestores comerciais.
 
 ---
 
-## 🧠 Contexto de Negócio
-A empresa utiliza o Salesforce para gerenciar:
-- Leads
-- Contas (Accounts)
-- Oportunidades (Opportunities)
-- Vendedores (Users)
+## 🎯 Objetivo do Projeto
 
-O desafio é entender:
-- Onde o funil de vendas perde oportunidades  
-- Quais vendedores têm melhor performance  
-- Como está a evolução da receita  
-- Quais estágios do pipeline concentram gargalos  
-- Como melhorar a previsibilidade de vendas (forecast)
+Responder perguntas estratégicas do negócio, como:
 
----
-
-## 🎯 Objetivos do Projeto
-- Analisar a performance comercial
-- Criar indicadores estratégicos de vendas
-- Desenvolver dashboards operacionais e executivos
-- Gerar insights para tomada de decisão
-- Integrar dados de CRM com ferramentas de BI
-
----
-
-## ❓ Perguntas de Negócio
-- Qual a taxa de conversão de leads em oportunidades?
-- Qual a taxa de ganho (win rate) das oportunidades?
-- Quanto tempo as oportunidades ficam abertas?
-- Qual vendedor possui melhor desempenho?
-- Qual o ticket médio por cliente?
-- Qual a receita por período (mês/trimestre)?
-- Em quais estágios do funil ocorre maior perda?
-- Como está distribuído o pipeline comercial?
-
----
-
-## 📈 KPIs Analisados
-- Receita total  
-- Receita por período  
-- Ticket médio  
-- Taxa de conversão  
-- Taxa de ganho (win rate)  
-- Pipeline por estágio  
-- Performance por vendedor  
-- Tempo médio de fechamento  
-- Volume de oportunidades abertas x fechadas  
+- Qual é a **receita total** gerada?
+- Como o **pipeline de vendas** está distribuído por estágio?
+- Qual é a proporção entre **oportunidades ganhas e perdidas**?
+- Onde o time comercial deve focar seus esforços?
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas
-- Salesforce (CRM, Reports, Dashboards)
-- Power BI (visualização e BI)
-- SQL (modelagem e análise)
-- GitHub (versionamento e portfólio)
+
+- **Salesforce CRM**
+  - Reports
+  - Dashboards
+  - Trailhead Playground
+- Conceitos de **Business Intelligence**
+- Análise de **Pipeline de Vendas**
+- KPIs de **Sales Performance**
 
 ---
 
-## 📊 Estrutura das Análises
+## 📈 KPIs Analisados
 
-### Salesforce
-- Relatórios operacionais
-- Dashboards de performance comercial
-- Funil de vendas
-- Pipeline por estágio
-- Receita por vendedor
+- Receita Total (Total Revenue)
+- Pipeline por Estágio
+- Oportunidades Ganhas vs Perdidas (Won vs Lost)
+- Valor financeiro das oportunidades
+- Distribuição do funil de vendas
 
-### Power BI
-- Dashboards executivos
-- Análises temporais
-- KPIs consolidados
-- Visualização estratégica de dados
+---
+
+## 📊 Dashboard Salesforce
+
+O dashboard final consolida os principais indicadores em uma visão executiva:
+
+### 🔹 Total Revenue
+Indicador de receita total baseada na soma do valor das oportunidades.
+
+### 🔹 Pipeline by Stage
+Distribuição do pipeline de vendas por estágio, permitindo identificar gargalos e oportunidades de melhoria no funil.
+
+### 🔹 Won vs Lost Opportunities
+Comparação entre oportunidades ganhas e perdidas, essencial para análise de performance e cálculo de win rate.
+
+📸 **Dashboard final:**
+
+![Salesforce Dashboard Overview](dashboards/salesforce_dashboard_overview.png)
+
+---
+
+## 🧠 Principais Insights
+
+- A maior parte da receita está concentrada em oportunidades **Closed Won**, indicando boa taxa de conversão.
+- Existem estágios do funil com menor volume de oportunidades, sugerindo possíveis gargalos no processo comercial.
+- O comparativo **Won vs Lost** permite avaliar a eficiência do time de vendas e direcionar estratégias de melhoria.
 
 ---
 
 ## 📁 Estrutura do Repositório
+
 salesforce-crm-analytics/
-│
-├── README.md
 ├── analysis/
 │ └── business_questions.md
+├── data/
+│ └── data_description.md
 ├── dashboards/
-│ ├── salesforce_dashboards.png
-│ └── powerbi_dashboard.png
-├── insights/
-│ └── insights_and_recommendations.md
-└── data/
-└── data_description.md
+│ ├── salesforce_dashboard_overview.png
+│ ├── salesforce_pipeline_by_stage.png
+│ └── salesforce_won_vs_lost.png
+└── README.md
 
-
-## 💡 Insights e Recomendações
-(Exemplos que serão desenvolvidos no projeto)
-- Identificação de gargalos no funil de vendas  
-- Otimização de estágios do pipeline  
-- Estratégias para aumento de conversão  
-- Melhor alocação de leads por performance de vendedores  
-- Melhoria na previsibilidade de receita  
+yaml
+Copiar código
 
 ---
 
 ## 🚀 Próximos Passos
-- Evoluir análises preditivas
-- Implementar segmentações avançadas
-- Criar modelos de forecast
-- Expandir integração com outras fontes de dados
+
+- Exportar dados do Salesforce para análise no **Power BI**
+- Criar métricas de **Win Rate** e **Tempo Médio de Fechamento**
+- Evoluir o projeto para um cenário de **Sales Forecast**
 
 ---
-
-## 👤 Autor
-**Murilo Figueira Barros**  
-Analista de Dados | BI | SQL | Python | Salesforce  
-LinkedIn: https://www.linkedin.com/in/murilo-barros-543530374/
 GitHub: https://github.com/murilofigueira88
