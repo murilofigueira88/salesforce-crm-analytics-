@@ -4,6 +4,10 @@ Este projeto demonstra a aplicação prática de **Salesforce CRM** no contexto 
 
 O objetivo é simular um cenário real de **Sales Ops / BI**, criando relatórios, dashboards e KPIs que apoiam a tomada de decisão de gestores comerciais.
 
+
+📍 Tools: Salesforce CRM | Reports & Dashboards | Sales Analytics | BI
+
+
 ---
 
 ## 🎯 Objetivo do Projeto
